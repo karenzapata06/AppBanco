@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addAccount"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar cuenta"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"
+        />
+
+
+
+
+    <EditText
+        android:id="@+id/etemailc"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/etfechac"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/ic_baseline_perm_contact_calendar_24"
+        android:gravity="center"
+        android:hint="Fecha"
+        android:inputType="date"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/etbalancec"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Balance"
+        android:drawableStart="@drawable/ic_baseline_balance_24"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/btnagregarc"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Agregar"
+        android:textAllCaps="false"
+        android:backgroundTint="#5C151513"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Número de cuenta :"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            />
+
+        <TextView android:id="@+id/tvnumberc"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+</LinearLayout>

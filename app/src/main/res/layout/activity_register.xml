@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_baseline_app_registration_24"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar Cuenta"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        >
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etemailreg"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Identificación"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/etnamereg"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Nombre"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:inputType="textPersonName"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/etpasswordreg"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Contraseña"
+        android:drawableStart="@drawable/ic_baseline_lock_reset_24"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Seleccione su rol"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        />
+
+    <Spinner
+        android:id="@+id/sprolreg"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:backgroundTint="#5C151513"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        />
+
+</LinearLayout>
